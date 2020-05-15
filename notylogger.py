@@ -5,7 +5,7 @@ window_place=[1420,60]
 window_size=[500,1000]
 
 window_css="\
-window, list, list-row\
+window, list, list-row, menu\
 { \
     background-color: rgba(0,0,0,0.8); \
     color: #fff;\
