@@ -166,7 +166,7 @@ def list_add(notify):
 	global window
 	hbox=Gtk.Box(orientation=0,spacing=5)
 	window.list.add(hbox)
-	image=Gtk.Image.new_from_icon_name(notify[0],3)
+	image=Gtk.Image.new_from_icon_name(notify[0],6)
 	hbox.pack_start(image,False,False,0)
 	label=Gtk.Label()
 	label.set_markup("<b>%s:</b>" %(notify[1]))
