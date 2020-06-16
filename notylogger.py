@@ -26,11 +26,9 @@ textview text\
 from gi.repository import GLib
 import gi
 gi.require_version("Gtk", "3.0")
-gi.require_version('AppIndicator3', '0.1')
 from gi.repository import Gtk, GObject, GLib, GdkPixbuf, Gdk
 import dbus
 from dbus.mainloop.glib import DBusGMainLoop
-from gi.repository import AppIndicator3
 import datetime
 
 digits=[
